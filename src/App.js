@@ -14,6 +14,9 @@ import ProductReview from './component/ProductReview';
 import Video from './component/Video';
 import InThePress from './component/InThePress';
 import Footer from './component/Footer';
+import Navoption from './component/Navoption';
+
+
 
 function App() {
   console.log(data.hotAccessories.music,"music")
@@ -21,7 +24,10 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Prenav/>
+
+
       <Nav/>
+      <Navoption miphone={data.miPhones} redmiphone={data.redmiPhones} tv={data.tv}  laptop={data.laptop} fitnesslifestyle={data.fitnessAndLifeStyle} home={data.home} accessories={data.accessories}/>
       <Slider start={data.banner.start}> </Slider>
       <Offers offer={data.offer}></Offers>
       <Heading text="Star Product"/>
@@ -61,7 +67,7 @@ function App() {
         <Video videos={data.videos}/>
         <Heading text="In The Press"/>
         <InThePress banner={data.banner}/>
-        <Footer></Footer>
+        <Footer footer={data.footer}> </Footer>
     </BrowserRouter>
 
     
