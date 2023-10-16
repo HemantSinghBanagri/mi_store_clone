@@ -15,3 +15,17 @@
     margin: 0.5vmax;
     cursor: pointer;
 }
+.videCard>a{
+    padding: 0.5vmax;
+    transition: all 0.5sec;
+    border: none;
+   }
+.videCard>a>svg{
+    fill: white;
+}
+
+.videCard:hover a{
+    padding: 2.5vmax;
+    color: white;
+    
+}

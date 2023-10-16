@@ -13,6 +13,7 @@ import HotAccessories from './component/HotAccessories';
 import ProductReview from './component/ProductReview';
 import Video from './component/Video';
 function App() {
+  console.log(data.hotAccessories.music,"music")
   return (
     <div className="App">
     <BrowserRouter>
@@ -27,7 +28,7 @@ function App() {
       
       <Routes>
           <Route exact path='/music' element={<HotAccessories
-            music={data.hotAccessories.music}
+            musicItem={data?.hotAccessories?.music}
             musicCover={data.hotAccessoriesCover.music}
           />} />
         
@@ -55,7 +56,6 @@ function App() {
         <ProductReview productReviews={data.productReviews}/>
         <Heading text="Video"/>
         <Video videos={data.videos}/>
-        
     </BrowserRouter>
 
     

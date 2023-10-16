@@ -1,6 +1,7 @@
 import HotItemCard from './HotItemCard'
 
-const HotAccessories = ({music,musicCover,smartDevice,smartDeviceCover,mobileAccessories,lifeStyle,home}) => {
+const HotAccessories = ({musicItem,musicCover,smartDevice,smartDeviceCover,mobileAccessories,lifeStyle,home}) => {
+  //console.log(musicItem,"======================")
   return (
     <div className='musicAccessories'>
     <div>
@@ -8,11 +9,13 @@ const HotAccessories = ({music,musicCover,smartDevice,smartDeviceCover,mobileAcc
         
     </div>
     <div>
-      {music && music.map((item,index)=>(
+      {musicItem && musicItem.map((item,index)=>(
+        <>
+        {/* {console.log(item)} */}
         <HotItemCard index={index} name={item.name} image={item.image}  price={item.price}  ></HotItemCard>
-
+        </>
       )) }
-      {/*<HotItemCard image=""/> */}
+     
     </div>
     
       
