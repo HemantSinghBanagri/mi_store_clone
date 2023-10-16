@@ -1,6 +1,6 @@
 .video{
     display: flex;
-    width: 90vh;
+    width: 90%;
     margin: auto;
 }
 .videCard{
@@ -26,6 +26,14 @@
 
 .videCard:hover a{
     padding: 2.5vmax;
-    color: white;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(179, 178, 178);
     
+
+}
+
+.videCard p{
+    margin-top: 2.5vmax;
+    color: white;
 }

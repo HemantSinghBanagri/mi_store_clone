@@ -12,6 +12,9 @@ import HotAccessoriesMenu from './component/HotAccessoriesMenu';
 import HotAccessories from './component/HotAccessories';
 import ProductReview from './component/ProductReview';
 import Video from './component/Video';
+import InThePress from './component/InThePress';
+import Footer from './component/Footer';
+
 function App() {
   console.log(data.hotAccessories.music,"music")
   return (
@@ -56,6 +59,9 @@ function App() {
         <ProductReview productReviews={data.productReviews}/>
         <Heading text="Video"/>
         <Video videos={data.videos}/>
+        <Heading text="In The Press"/>
+        <InThePress banner={data.banner}/>
+        <Footer></Footer>
     </BrowserRouter>
 
     

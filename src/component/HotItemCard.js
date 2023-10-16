@@ -1,5 +1,5 @@
 import React from 'react'
-// import "hotAccessoriesmenu.css"
+import "../styles/hotItemCard.css"
 const HotItemCard = ({name,index,image,price}) => {
   //console.log(name,index,image,price,"----------------------")
   return (
@@ -7,8 +7,8 @@ const HotItemCard = ({name,index,image,price}) => {
 
      <div className='hotitemcard'>
      <img src={image} alt={index} />
-       <h3>{name}</h3>
-       <p>Price: ${price}</p>
+       <p>{name}</p>
+       <span>{price}</span>
      </div>
     </>
   )

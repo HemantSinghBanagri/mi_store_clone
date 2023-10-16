@@ -1,0 +1,57 @@
+.hotitemcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    transition: all 0.2s;
+    margin: 0.7vmax;
+    text-align: center;
+}
+
+.hotitemcard img{
+    width: 70%;
+
+}
+.hotitemcard p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85,83,83);
+}
+.hotitemcard span{
+    margin: -1vmax 0 1vmax 0;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hotitemcard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+    cursor: pointer;
+}
+
+.hotAccessoriesItem{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.hotAccessoriesItem>div:first-child >img{
+    cursor: pointer;
+    width: 22vw;
+    transition: all 0.5;
+
+
+}
+
+.hotAccessoriesItem>div:first-child:hover{
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+    transform: translateY(-0.4vmax);
+}
+.hotAccessoriesItem>div:last-child{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+

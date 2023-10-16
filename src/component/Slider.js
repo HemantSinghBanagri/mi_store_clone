@@ -4,7 +4,9 @@ import Carousel from 'react-bootstrap/Carousel'
 
 
 
+
 const Slider = ({start}) => {
+  
 
   
     return (
