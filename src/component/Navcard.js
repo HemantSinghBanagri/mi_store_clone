@@ -1,10 +1,11 @@
 import React from 'react'
+import "../styles/navcard.css"
 
 const Navcard = ({name,price,image}) => {
   return (
     <div className='navcard'>
 
-    <img drc={image} alt={name}></img>
+    <img src={image} alt={name}></img>
     <p>{name}</p>
     <span>{price}</span>
       

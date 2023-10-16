@@ -27,7 +27,7 @@ function App() {
 
 
       <Nav/>
-      <Navoption miphone={data.miPhones} redmiphone={data.redmiPhones} tv={data.tv}  laptop={data.laptop} fitnesslifestyle={data.fitnessAndLifeStyle} home={data.home} accessories={data.accessories}/>
+      <Navoption miphone={data.miPhones} redmiphone={data.redmiPhones} tv={data.tv}  laptop={data.laptop} fitnesslifestyle={data.fitnessAndLifeStyle} home={data.home} accessories={data.accessories} audio={data.audio}/>
       <Slider start={data.banner.start}> </Slider>
       <Offers offer={data.offer}></Offers>
       <Heading text="Star Product"/>
