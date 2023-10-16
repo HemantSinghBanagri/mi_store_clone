@@ -1,0 +1,17 @@
+.video{
+    display: flex;
+    width: 90vh;
+    margin: auto;
+}
+.videCard{
+    width: 30vw;
+    height:40vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5vmax;
+    cursor: pointer;
+}

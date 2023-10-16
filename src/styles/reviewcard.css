@@ -1,0 +1,29 @@
+.reviewCard{
+    margin: 0.5vmax;
+    
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.reviewCard:hover{
+    box-shadow: 6px 6px 15px black;
+}
+.reviewCard h5{
+    margin: 2vmax 0.5vmax 2vmax;
+    color: rgb(94, 94,94);
+
+}
+.reviewCard span{
+    color: rgb(94, 94,94);
+
+
+}
+.productReview{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

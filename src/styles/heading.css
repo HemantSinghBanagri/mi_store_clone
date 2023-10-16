@@ -1,0 +1,19 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading div{
+    background-color: black;
+    height: 1px;
+    width: 30vw;
+
+}
+.heading p{
+    font-size:3vmax;
+    margin: 3vmax;
+    font-weight: 300;
+    color: rgb(48, 47, 47);
+
+}
