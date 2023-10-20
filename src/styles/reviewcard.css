@@ -27,3 +27,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:1024px) {
+    .reviewCard img{
+        width: 100%;
+    }
+    .reviewCard>div:first-child{
+        margin: 5px;
+    }
+    
+}

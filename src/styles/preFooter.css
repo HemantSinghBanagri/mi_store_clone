@@ -105,3 +105,15 @@
 .PreFooter2>div:nth-child(4)>svg:hover{
     fill: black;
 }
+
+
+@media (max-width:426px )   {
+    .PreFooter2{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        grid-template-rows:repeat(2,2fr) ;
+       
+    }
+    
+    
+}

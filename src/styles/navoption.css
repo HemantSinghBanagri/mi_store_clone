@@ -3,5 +3,6 @@
     background-color:white ;
     justify-content: space-evenly;
     padding: 2px;
+    flex-wrap: wrap;
 
 }

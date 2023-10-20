@@ -20,3 +20,21 @@
     box-shadow: 6px 6px 15px black;
 
 }
+
+@media  (max-width:1024px )
+{.starproduct>div:last-child img{
+    width: 50%;
+}
+.starproduct>div:first-child img{
+    width: 80%;
+    padding-left: 8vmax;
+   
+}
+.starproduct>div:last-child>a:last-child img{
+    width: 100%;
+    margin-right: 8vmax;
+}
+   
+
+    
+}

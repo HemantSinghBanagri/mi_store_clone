@@ -13,3 +13,20 @@
 .offerSection img:hover{
     box-shadow: 6px 6px 15px black;
 }
+
+
+@media (max-width:1024px) {
+    .offerSection {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        margin: left 0.5em; ;
+        
+    }
+    .offerSection img{
+       width: 100%;
+       justify-content: space-evenly;
+
+    }
+    
+}
